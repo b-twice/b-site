@@ -1,9 +1,9 @@
-FROM node:12.18.1 AS build-stage
+FROM node:16.10.0 AS build-stage
 WORKDIR /opt/app
 COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install
 COPY . .
-RUN npx ng build --prod --aot
+RUN npx ng build --configuration production
 
 
 FROM nginx:1.19.6 AS deploy-stage

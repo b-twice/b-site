@@ -1,11 +1,11 @@
 {
   "name": "bgeo",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "run": "ng serve --aot",
-    "build": "ng build --configuration production --aot",
+    "run": "ng serve",
+    "build": "ng build --configuration production",
     "docker-build": "docker-compose build",
     "docker-start": "docker-compose up",
     "docker-test-build": "docker build -t b-site .",
