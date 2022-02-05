@@ -1,6 +1,6 @@
 {
   "name": "bgeo",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
@@ -38,6 +38,6 @@
     "typescript": "4.5.4",
     "webpack-bundle-analyzer": "^4.4.0"
   },
-  "repository": "git@github.com:brianbrowndev/b-site.git",
+  "repository": "git@github.com:b-twice/b-site.git",
   "author": "bgeo <brbrowngeo@gmail.com>"
 }
